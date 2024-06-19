@@ -1,2 +1,4 @@
-# Rudots
-Config files for my tools
+# Config files for my tools :)
+Currently:
+-Neovim
+-Kitty
