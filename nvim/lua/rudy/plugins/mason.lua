@@ -17,8 +17,8 @@ return {
     masonLspConfig = {
       -- list of servers for mason to install
       ensure_installed = {
-        --'tsserver',
-        --'html',
+        'tsserver',
+        'html',
         'cssls',
         'tailwindcss',
         'lua_ls',
