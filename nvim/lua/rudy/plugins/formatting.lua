@@ -15,6 +15,8 @@ return {
       markdown = { 'prettier' },
       lua = { 'stylua' },
       python = { 'isort', 'black' },
+      cpp = { 'clangd' },
+      java = { 'checkstyle' },
     },
   },
   config = function(_, opts)

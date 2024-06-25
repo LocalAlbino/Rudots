@@ -40,6 +40,7 @@ return {
         'gitignore',
         'query',
         'cpp',
+        'java',
         'python',
         'c_sharp',
       },
