@@ -69,6 +69,12 @@ return {
       on_attach = on_attach,
     })
 
+    -- configure java server
+    lspconfig['checkstyle'].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
     -- configure typescript server with plugin
     lspconfig['tsserver'].setup({
       capabilities = capabilities,
